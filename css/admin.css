@@ -1,0 +1,123 @@
+/* 
+Author : saurabh belwal;
+Theme : Food order website;
+version: version1.0;
+*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper{
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+.text-center{
+    text-align: center;
+}
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+/* css for menu */
+.menu{
+    border-bottom: 1px solid gray;
+
+}
+.menu ul{
+    list-style: none;
+}
+.menu ul li{
+    display: inline;
+    padding: 1%;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #EB1D36;
+}
+.menu ul li a:hover{
+    color: #8f2733;
+}
+
+/* css for main content */
+.main-content{
+  
+    background-color: #B4CDE6;
+    padding: 3% 0;
+}
+.col-4{
+    width: 18%;
+    background-color: white;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+}
+.tbl-full{
+    width: 100%;
+}
+.tbl-30{
+    width: 30%;
+}
+table tr th{
+    border-bottom: 1px solid black;
+    padding: 1%;
+    text-align: left;
+}
+table tr td{
+    padding: 1%;
+}
+
+.btn-primary{
+    background-color: rgb(64, 64, 133);
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-primary:hover{
+    background-color: rgb(16, 16, 122);
+}
+.btn-secondry{
+    background-color: rgb(17, 127, 46);
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-secondry:hover{
+    background-color: rgb(8, 84, 44);
+}
+.btn-danger{
+    background-color: rgb(216, 18, 18);
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-danger:hover{
+    background-color: rgb(197, 11, 11);
+}
+.success{
+    color: green;
+}
+.error{
+    color: red;
+}
+/* cSs for footer */
+.footer{
+    background-color: #EB1D36;
+    color: white;
+}
+
+/* css for login */
+.login{
+    width:20%;
+    border: 1px solid grey;
+    margin: 5% auto;
+    padding: 2%;
+    
+}
